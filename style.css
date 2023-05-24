@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar ======================================================================================> */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 1rem 5rem;
+  color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/* Logo styles */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.navbar-logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Button styles */
+.navbar-button {
+  padding: 0.8rem 1.8rem;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1.2rem;
+}
+
+.request-btn {
+  background-color: #000000;
+  color: white;
+  border: white solid 1px;
+  font-weight: 600;
+}
+.sign-in-btn {
+  background-color: #4c5fd5;
+  color: white;
+}
+
+.sign-in-btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+/* Help Center text styles */
+.navbar-help-center {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar-help-center:hover {
+  text-decoration: underline;
+}
+
+.abstract {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+
