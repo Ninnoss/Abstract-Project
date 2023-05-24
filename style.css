@@ -70,4 +70,24 @@
   margin-right: 0.5rem;
 }
 
+/* Main Section =========================================================================>*/
+.articles-container {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 3rem;
+}
+article {
+  max-width: 40%;
+}
+.article-logo {
+  height: 50px;
+  float: left;
+  padding: 0.4rem;
+}
 
+article a {
+  margin-left: 4rem;
+}
